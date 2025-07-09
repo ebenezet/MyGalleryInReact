@@ -1,0 +1,42 @@
+body{
+  display:flex;
+  flex-direction: row;
+}
+
+.topSection{
+  display:flex;
+  flex-direction:row;
+}
+
+
+
+
+
+.thumbnail-container {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.thumbnail{
+  display:flex;
+  flex-direction: row;
+  width:6vw;
+  height:9vh;
+}
+
+button {
+
+  display:flex;
+  background-color: aqua;
+}
+
+.middleSection{
+display:flex;
+flex-wrap: wrap;
+
+}
+
+
+button:hover {
+  text-decoration: underline;
+  background-color: tomato;
+}
